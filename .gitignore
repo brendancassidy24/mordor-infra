@@ -1,2 +1,14 @@
+# Environment files with secrets
 .env
-*.secret
+*.env
+!.env.example
+
+# Docker volumes (should never be in git)
+*/data/
+*/volumes/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+
